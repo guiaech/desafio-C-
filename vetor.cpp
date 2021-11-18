@@ -1,5 +1,5 @@
 #include <iostream>
-#include "vetor.hpp"
+#include "headers.hpp"
 using namespace std;
 
 #define MAX3 10;
@@ -30,7 +30,7 @@ int vetor1()
         for (i = 0; i < MAX3)
      {
 
-        cout << vetor[i] << endl;
+        cout << "Número inserido ao cubo fica \n"<< vetor[i] << endl;
         i++;
      }
 

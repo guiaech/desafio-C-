@@ -1,5 +1,5 @@
 #include <iostream>
-#include "matriz.hpp"
+#include "headers.hpp"
 using namespace std;
 
 int matrizm()
@@ -25,7 +25,7 @@ int matrizm()
 
     int resultado = principal - secundaria;
 
-    cout << resultado << endl;
+    cout << "A determinante é " <<resultado << endl;
 
     return 0;
 }

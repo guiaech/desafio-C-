@@ -1,9 +1,5 @@
 #include <iostream>
-#include "vetor.hpp"
-#include "xey.hpp"
-#include "soma.hpp"
-#include "chave.hpp"
-#include "matriz.hpp"
+#include "headers.hpp"
 
 //Guilherme Andrade e Chaves
 
@@ -14,11 +10,11 @@ int main()
     do
     {
         printf("\n\tEscolha a opção desejada\n\n");
-        printf("1. Questão 1 \n");
-        printf("2. Questão 2 \n");
-        printf("3. Questão 3 \n");
-        printf("4. Questão 4 \n");
-        printf("5. Questão 5 \n");
+        printf("1. Questão 1 (Vetor 10 posições elevados ao cubo)\n");
+        printf("2. Questão 2 (Vetor X e Y com as funções de Y)\n");
+        printf("3. Questão 3 (Soma dos valores do vetor)\n");
+        printf("4. Questão 4 (Busca de chave no vetor)\n");
+        printf("5. Questão 5 (Matriz com resultado da determinante)\n");
         printf("0. Sair\n");
 
         scanf("%d", &continuar);

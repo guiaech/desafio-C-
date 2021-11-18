@@ -1,5 +1,5 @@
 #include <iostream>
-#include "chave.hpp"
+#include "headers.hpp"
 using namespace std;
 
 #define MAX1 20;
@@ -21,7 +21,7 @@ int chaves()
     cout << "Qual chave quer buscar? " <<endl;
     cin >> chave;
 
-    cout << vetor[chave]<< endl;
+    cout << "O valor guardado na chave é " <<vetor[chave]<< endl;
 
     return 0;
 
